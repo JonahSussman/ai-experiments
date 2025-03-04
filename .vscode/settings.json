@@ -1,7 +1,7 @@
 {
-    "cSpell.words": [
-        "Karpathy",
-        "makemore",
-        "Softmax"
-    ]
+  "cSpell.words": ["Karpathy", "makemore", "Softmax"],
+  "editor.rulers": [80],
+  "[python]": {
+    "editor.rulers": [88]
+  }
 }
