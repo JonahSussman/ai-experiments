@@ -1,7 +1,22 @@
 {
-  "cSpell.words": ["Karpathy", "makemore", "Softmax"],
+  "cSpell.words": [
+    "Anki",
+    "karas",
+    "Karpathy",
+    "keras",
+    "makemore",
+    "matplotlib",
+    "numpy",
+    "scikit",
+    "SGNS",
+    "skipgram",
+    "Softmax"
+  ],
   "editor.rulers": [80],
   "[python]": {
+    "editor.rulers": [88]
+  },
+  "[markdown]": {
     "editor.rulers": [88]
   }
 }
