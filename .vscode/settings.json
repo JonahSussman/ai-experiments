@@ -4,13 +4,19 @@
     "karas",
     "Karpathy",
     "keras",
+    "linearities",
     "makemore",
     "matplotlib",
+    "mypy",
+    "nanogpt",
     "numpy",
+    "ollama",
+    "petscan",
     "scikit",
     "SGNS",
     "skipgram",
-    "Softmax"
+    "Softmax",
+    "wikitext"
   ],
   "editor.rulers": [80],
   "[python]": {

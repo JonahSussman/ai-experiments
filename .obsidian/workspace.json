@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "54ae3be23c245dfe",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccc4e6bfdd2f9211",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb13e5b06f96084a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "db06bff4f017e7c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "c98d86a599a8dd17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02d8441651f9a125",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3c92078c2d13201c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "91b579cea88fc182",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a447f9f9a67abd7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b14f1b4d895e1e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e66d655745b39478",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TODO.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for TODO"
+            }
+          },
+          {
+            "id": "6408bc7ab23c0d69",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TODO.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from TODO"
+            }
+          },
+          {
+            "id": "aa2591950e71cd88",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9747bf4219af79bf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TODO.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of TODO"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "cb13e5b06f96084a",
+  "lastOpenFiles": [
+    "notes.md",
+    "TODO.md",
+    "Notes/Papers/The Annotated Transformer.md",
+    "Notes/Ilya Sutskever's Top 30.md",
+    "Notes/Shalizi Neural Networks.md",
+    "Notes/Bycroft LLM Visualization.md",
+    "Notes/Papers",
+    "Notes/Jay Alammar Articles.md",
+    "README.md",
+    "pytorch/beginner.ipynb",
+    "pytorch",
+    "pytorch-tutorials/beginner.ipynb",
+    "pytorch-tutorials",
+    "Notes/Jay Alammar Articles/The Illustrated Word2Vec.md",
+    "Notes/Jay Alammar Articles/A Visual and Interactive Guide to the Basics of Neural Networks.md",
+    "Notes/Jay Alammar Articles",
+    "nanoGPT/data/openwebtext/readme.md",
+    "Notes",
+    "Untitled"
+  ]
+}

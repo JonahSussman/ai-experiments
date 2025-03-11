@@ -1,4 +1,7 @@
-10k-vital-articles/titles.json
+10k-vital-articles/petscan.json
+10k-vital-articles/data/
+
+word2vec/.venv-word2vec/
 
 # --- Python.gitignore ---
 

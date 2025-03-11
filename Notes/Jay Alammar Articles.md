@@ -1,0 +1,2 @@
+- [[The Illustrated Word2Vec]]
+- [[A Visual and Interactive Guide to the Basics of Neural Networks]]

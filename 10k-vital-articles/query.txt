@@ -16,10 +16,17 @@ Wikipedia:Vital articles/Level/4/Mathematics
 result:
 https://petscan.wmflabs.org/?cb%5Flabels%5Fyes%5Fl=1&langs%5Flabels%5Fyes=&output%5Fcompatability=catscan&sortorder=ascending&labels%5Fyes=&sortby=none&search%5Fmax%5Fresults=500&rxp%5Ffilter=&depth=0&show%5Fredirects=both&interface%5Flanguage=en&edits%5Bflagged%5D=both&common%5Fwiki=auto&ores%5Ftype=any&search%5Fwiki=&common%5Fwiki%5Fother=&sitelinks%5Fyes=&wikidata%5Flabel%5Flanguage=&page%5Fimage=any&smaller=&links%5Fto%5Fno=&wikidata%5Fprop%5Fitem%5Fuse=&search%5Ffilter=&referrer%5Fname=&larger=&max%5Fage=&referrer%5Furl=&ns%5B0%5D=1&show%5Fdisambiguation%5Fpages=both&outlinks%5Fno=&wikidata%5Fsource%5Fsites=&links%5Fto%5Fany=&subpage%5Ffilter=either&show%5Fsoft%5Fredirects=both&ores%5Fprob%5Ffrom=&labels%5Fany=&links%5Fto%5Fall=&langs%5Flabels%5Fany=&output%5Flimit=&edits%5Bbots%5D=both&doit=Do%20it%21&outlinks%5Fany=Wikipedia%3AVital%20articles%2FLevel%2F4%2FPeople%0D%0AWikipedia%3AVital%20articles%2FLevel%2F4%2FHistory%0D%0AWikipedia%3AVital%20articles%2FLevel%2F4%2FGeography%0D%0AWikipedia%3AVital%20articles%2FLevel%2F4%2FArts%0D%0AWikipedia%3AVital%20articles%2FLevel%2F4%2FPhilosophy%20and%20religion%0D%0AWikipedia%3AVital%20articles%2FLevel%2F4%2FEveryday%20life%0D%0AWikipedia%3AVital%20articles%2FLevel%2F4%2FSociety%20and%20social%20sciences%0D%0AWikipedia%3AVital%20articles%2FLevel%2F4%2FBiology%20and%20health%20sciences%0D%0AWikipedia%3AVital%20articles%2FLevel%2F4%2FPhysical%20sciences%0D%0AWikipedia%3AVital%20articles%2FLevel%2F4%2FTechnology%0D%0AWikipedia%3AVital%20articles%2FLevel%2F4%2FMathematics%0D%0A&after=&minlinks=&outlinks%5Fyes=&negcats=&min%5Fsitelink%5Fcount=&wikidata%5Fitem=no&sparql=&format=json&language=en&manual%5Flist=&manual%5Flist%5Fwiki=&active%5Ftab=tab%5Foutput&ores%5Fprob%5Fto=&wpiu=any&source%5Fcombination=&templates%5Fany=&cb%5Flabels%5Fno%5Fl=1&min%5Fredlink%5Fcount=1&sitelinks%5Fno=&since%5Frev0=&langs%5Flabels%5Fno=&cb%5Flabels%5Fany%5Fl=1&pagepile=&namespace%5Fconversion=keep&categories=&project=wikipedia&edits%5Banons%5D=both&labels%5Fno=&sitelinks%5Fany=&maxlinks=&before=&search%5Fquery=&templates%5Fyes=&combination=subset&ores%5Fprediction=any&templates%5Fno=&max%5Fsitelink%5Fcount=
 
+
 To get the summary (from: https://stackoverflow.com/questions/8555320/is-there-a-wikipedia-api-just-for-retrieve-the-content-summary)
-https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&pageids=1|2|3|etc...
+
+https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&exsectionformat=wiki&pageids=39
 
 Need to get wikitext, look here next: https://stackoverflow.com/questions/55779015/get-wikitext-from-wikipedia-api
+
+Use revisions prop, not extracts for wikitext
+
+https://en.wikipedia.org/w/api.php?action=query&format=json&prop=revisions&pageids=39&redirects=1&formatversion=2&rvprop=content&rvslots=main&rvsection=intro&rvcontentformat-main=text%2Fx-wiki
+
 
 
 Could also use: https://github.com/mmsamiei/Wikipedia-10000--Level4--vital-articles-summary
